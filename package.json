@@ -1,0 +1,24 @@
+{
+    "name": "llm-playwright-automation",
+    "version": "1.0.0",
+    "description": "LLM-powered browser automation using Playwright",
+    "main": "src/index.js",
+    "scripts": {
+      "test": "node tests/amazon-search.test.js",
+      "test:amazon": "node tests/amazon-search.test.js"
+    },
+    "keywords": [
+      "llm",
+      "playwright",
+      "automation",
+      "testing"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@playwright/test": "^1.40.0",
+      "dotenv": "^16.3.1",
+      "openai": "^3.3.0",
+      "playwright": "^1.40.0"
+    }
+  }
