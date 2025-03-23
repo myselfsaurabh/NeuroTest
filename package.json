@@ -5,11 +5,13 @@
     "main": "src/index.js",
     "scripts": {
       "test": "node tests/amazon-search.test.js",
-      "test:amazon": "node tests/amazon-search.test.js"
+      "test:amazon": "node tests/amazon-search.test.js",
+      "test:gemma": "node tests/gemma-amazon-search.test.js"
     },
     "keywords": [
       "llm",
       "playwright",
+      "gemma",
       "automation",
       "testing"
     ],
