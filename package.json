@@ -1,26 +1,29 @@
 {
-    "name": "llm-playwright-automation",
-    "version": "1.0.0",
-    "description": "LLM-powered browser automation using Playwright",
-    "main": "src/index.js",
-    "scripts": {
-      "test": "node tests/amazon-search.test.js",
-      "test:amazon": "node tests/amazon-search.test.js",
-      "test:gemma": "node tests/gemma-amazon-search.test.js"
-    },
-    "keywords": [
-      "llm",
-      "playwright",
-      "gemma",
-      "automation",
-      "testing"
-    ],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "@playwright/test": "^1.40.0",
-      "dotenv": "^16.3.1",
-      "openai": "^3.3.0",
-      "playwright": "^1.40.0"
-    }
+  "name": "llm-playwright-automation",
+  "version": "1.0.0",
+  "description": "LLM-powered browser automation using Playwright with Gemma 3 and EA MCP approach",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/amazon-search.test.js",
+    "test:amazon": "node tests/amazon-search.test.js",
+    "test:gemma": "node tests/gemma-amazon-search.test.js",
+    "test:ea-mcp": "node tests/ea-mcp-search.test.js",
+    "test:mcp": "node tests/proper-mcp-search.test.js"
+  },
+  "keywords": [
+    "llm",
+    "gemma",
+    "playwright",
+    "automation",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.40.0",
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "playwright": "^1.40.0"
   }
+}
