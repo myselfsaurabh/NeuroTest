@@ -14,7 +14,7 @@ if (!process.env.OPENAI_API_KEY) {
  */
 async function runAmazonSearchTest() {
   console.log("\n📱 RUNNING TEST: Amazon iPhone Search");
-  console.log("======================================");
+  console.log("=====================================");
   
   const taskDescription = "Open a browser, navigate to https://www.ebay.ca/ then search for 'iPhone'.then validate current iphone price";
   
